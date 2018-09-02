@@ -1,28 +1,65 @@
-.a__header ul {
-  display: flex;
-}
-.a__header ul li {
-  margin-right: 50px;
-}
+.a__header {
+  background-color: black;
+  height: 50px; }
+  .a__header h1 {
+    color: white;
+    font-size: 40px;
+    margin: auto 0; }
 
-.a__edit input {
-  width: 200px;
-}
-.a__edit textarea {
-  width: 200px;
-  height: 250px;
-}
+.a__edit {
+  width: 320px;
+  margin: 20px auto; }
+  .a__edit h2 {
+    font-size: 30px; }
+  .a__edit p {
+    margin-bottom: 3px; }
+  .a__edit input {
+    width: 320px;
+    height: 40px;
+    margin-bottom: 10px; }
+  .a__edit textarea {
+    width: 320px;
+    height: 250px;
+    margin-bottom: 20px; }
+  .a__edit .b__button a:last-child {
+    float: right; }
 
-.a__update input {
-  width: 200px;
-}
-.a__update textarea {
-  width: 200px;
-  height: 250px;
-}
+.a__update {
+  width: 320px;
+  margin: 20px auto; }
+  .a__update h2 {
+    font-size: 30px; }
+  .a__update input {
+    width: 320px;
+    height: 40px;
+    margin-bottom: 10px; }
+  .a__update textarea {
+    width: 320px;
+    height: 250px;
+    margin-bottom: 20px; }
+  .a__update .b__button a:nth-of-type(2) {
+    float: right; }
+  .a__update .b__button a:last-child {
+    float: right; }
+
+.a__todolist {
+  margin: 20px auto 0 auto;
+  width: 320px;
+  height: auto; }
+  .a__todolist .b__head {
+    height: 100%;
+    height: 50px; }
+    .a__todolist .b__head span {
+      font-size: 30px;
+      margin-right: 20px; }
+    .a__todolist .b__head a {
+      float: right; }
+  .a__todolist div {
+    margin-bottom: 10px; }
 
 .a__todo {
-  margin-bottom: 10px;
-}
+  margin-left: 15px; }
+  .a__todo div a {
+    float: right; }
 
 /*# sourceMappingURL=index.css.map */

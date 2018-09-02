@@ -10,6 +10,7 @@ function Edit({addTaskfunction}) {
   let textarea;
   return (
     <div className="a__edit">
+      <h2>新規作成</h2>
       <p>タイトル</p>
       <input
         ref={node => {
@@ -26,7 +27,7 @@ function Edit({addTaskfunction}) {
         }}
         placeholder="内容をを入力してください。"
       />
-      <div>
+      <div className="b__button">
         <Link to="/">
           <Button>キャンセル</Button>
         </Link>

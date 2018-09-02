@@ -18,7 +18,7 @@ function Update({state, target, updatefunction, deleatfunction}) {
 
   return (
     <div className="a__update">
-      <p>タイトル</p>
+      <h2>タイトル</h2>
       <input
         ref={node => {
           input = node;
@@ -33,9 +33,20 @@ function Update({state, target, updatefunction, deleatfunction}) {
         }}
         placeholder={text}
       />
-      <div>
+      <div className="b__button">
         <Link to="/">
           <Button>キャンセル</Button>
+        </Link>
+        <Link to="/">
+          <Button
+            basic
+            color="red"
+            onClick={() => {
+              deleatfunction(target);
+            }}
+          >
+            削除
+          </Button>
         </Link>
         <Link to="/">
           <Button
@@ -48,17 +59,6 @@ function Update({state, target, updatefunction, deleatfunction}) {
             }}
           >
             更新
-          </Button>
-        </Link>
-        <Link to="/">
-          <Button
-            basic
-            color="red"
-            onClick={() => {
-              deleatfunction(target);
-            }}
-          >
-            削除
           </Button>
         </Link>
       </div>
