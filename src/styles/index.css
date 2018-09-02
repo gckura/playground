@@ -1,0 +1,28 @@
+.a__header ul {
+  display: flex;
+}
+.a__header ul li {
+  margin-right: 50px;
+}
+
+.a__edit input {
+  width: 200px;
+}
+.a__edit textarea {
+  width: 200px;
+  height: 250px;
+}
+
+.a__update input {
+  width: 200px;
+}
+.a__update textarea {
+  width: 200px;
+  height: 250px;
+}
+
+.a__todo {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */

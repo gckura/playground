@@ -3,18 +3,39 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "flow-typed": "^2.5.1",
     "history": "^4.7.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
-    "redux-logger": "^3.0.6"
+    "redux-logger": "^3.0.6",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-fbjs": "^2.0.1",
+    "eslint-config-gemcook": "^1.0.5",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-relay": "^0.0.28",
+    "prettier": "^1.14.2"
   }
 }
