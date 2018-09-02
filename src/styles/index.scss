@@ -1,11 +1,19 @@
 .a__header {
   background-color: black;
   height: 50px;
+  position: relative;
   
-  h1{
-    color: white;
-    font-size: 40px;
-    margin: auto 0;
+  a{
+    width: 145px;
+    height: 40px;
+    position: absolute;
+    top: 13px;
+    
+    span{
+      color: white;
+      font-size: 40px;
+      margin: auto 0;
+    }
   }
 }
 
