@@ -1,2 +1,2 @@
-倉崎のplaygraundです。
+倉崎のplaygroundです。
 CRUDアプリです。
